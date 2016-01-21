@@ -1,0 +1,259 @@
+body
+{
+	overflow: hidden;
+}
+
+#Prepa
+{
+	display: none;
+	background-color: #FAFAFA;
+	position: absolute;
+	top: 2%;
+	left: 31%;
+	width: 67%;
+	height: 96%;
+	border-radius: 6px;
+}
+
+#canvas
+{
+	z-index: 8;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+#interface
+{
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+#banniere
+{
+	background-color: green;
+	color: white;
+	position: absolute;
+	top: 2%;
+	left: 31%;
+	width: 67%;
+	height: 27%;
+	border-radius: 6px;
+}
+
+#pseudo
+{
+	font-size: 50px;
+	position: absolute;
+	top: 7%;
+	left: 4%;
+}
+
+#Menu
+{
+	background-color: #FAFAFA;
+	position: absolute;
+	top: 31%;
+	left: 31%;
+	width: 67%;
+	height: 67%;
+	border-radius: 6px;
+}
+
+#listeServeurs
+{
+	position: absolute;
+	top: 5%;
+	left: 2%;
+	width: 77%;
+	height: 90%;
+	border-radius: 4px;
+	border: 1px solid #DDD;
+}
+
+#titreServeurs
+{
+	border-bottom: 1px solid #999;
+	text-align: center;
+	font-size: 18px;
+	position: absolute;
+	left: 2%;
+	top: 0%;
+	width: 96%;
+	height: 10%;
+}
+
+#creerS
+{
+	position: absolute;
+	bottom: 5%;
+	right: 2%;
+	width: 17%;
+	background-color: green;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#serveursdispos
+{
+	font-size: 16px;
+	position: absolute;
+	left: 2%;
+	top: 10%;
+	width: 96%;
+	height: 90%;
+	padding: 25px;
+	text-align: center;
+}
+
+.nomServer
+{
+	cursor: pointer;
+}
+
+#chat
+{
+	background-color: #FAFAFA;
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	width: 27%;
+	height: 96%;
+	border-radius: 6px;
+}
+
+#text {
+	position: absolute;
+	bottom: 0%;
+	margin: 10px;
+	font-size: 20px;
+}
+
+#textPosition
+{
+	position: absolute;
+	left: 4%;
+	top: 2%;
+	width: 92%;
+	height: 86%;
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid #BBB;
+	overflow: auto;
+}
+
+#textPosition > *
+{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 1px;
+}
+
+.team
+{
+	position: absolute;
+	width: 35%;
+	height: 60%;
+	top: 5%;
+	background-color: #FFF;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#team1
+{
+	left: 10%;
+}
+
+#team2
+{
+	left: 55%;
+}
+
+#selection
+{
+	position: absolute;
+	left: 10%;
+	top: 70%;
+	width: 80%;
+	text-align: center;
+	background-color: #CCC;
+	padding: 30px;
+	border-radius: 3px;
+}
+
+.select
+{
+	padding: 5px;
+	margin: 5px;
+	background-color: green;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+#championSelect
+{
+	position: absolute;
+	left: 10%;
+	bottom: 4%;
+	background-color: green;
+	padding: 1%;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: default;
+}
+
+#startGame
+{
+	position: absolute;
+	right: 3%;
+	bottom: 4%;
+	background-color: green;
+	padding: 1%;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none;
+}
+
+#quitPrepa
+{
+	position: absolute;
+	right: 26%;
+	bottom: 4%;
+	background-color: #050;
+	padding: 1%;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none;
+}
+
+#switchTeam
+{
+	position: absolute;
+	left: 26%;
+	bottom: 4%;
+	background-color: #050;
+	padding: 1%;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	display: none;
+}

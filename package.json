@@ -1,0 +1,14 @@
+{
+	"name": "Bwindi",
+	"version": "0.1.0",
+	"description": "Jeu de type MOBA sur navigateur",
+	"homepage": "157.159.40.137:8080",
+	"email": "blender@iloveblender.com",
+	"man": "./README.md",
+	"dependencies": {
+		"express": "~3.0",
+		"socket.io": "~0.9",
+		"mongodb": "",
+		"mongoose": ""
+	}
+}

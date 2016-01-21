@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bwindi </title>
+		<meta charset="utf-8" />
+		<link rel="Stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div id="ecran_principal">
+			<div id="banniere">
+				<span id="pseudo"></span>
+			</div>
+			<div id="Menu">
+				<div id="listeServeurs">
+					<p id="titreServeurs"> Liste des serveurs disponibles </p>
+					<div id="serveursdispos">
+					</div>
+				</div>
+				<div id="creerS"> Créer un nouveau serveur </div>
+			</div>
+			<div id="chat">
+				<div id="textPosition"></div>
+				<form id="chatteur">
+					<input type="text" id="text" autocomplete="off" placeholder="Click here to chat"/>
+					<input type="submit" style="display: none;"/>
+				</form>
+			</div>
+		</div>
+
+		<div id="Prepa">
+			<div id="team1" class="team"></div>
+			<div id="team2" class="team"></div>
+			<div id="selection">
+				<span id="Barbare" class="select"> Barbare </span>
+				<span id="Mage" class="select"> Mage </span>
+				<span id="Nova" class="select"> Nova </span>
+			</div>
+			<div id="championSelect">Barbare</div>
+			<div id="switchTeam"> Changer d'équipe </div>
+			<div id="quitPrepa"> Quitter cette Game </div>
+			<div id="startGame"> Start the game ! </div>
+		</div>
+
+		<canvas id="canvas"></canvas>
+		<canvas id="interface"></canvas>
+
+		<script src="/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="lib/three.js"></script>
+		<script type="text/javascript" src="lib/jquery.js"></script>
+		<script type="text/javascript" src="lib/underscore.js"></script>
+		<script type="text/javascript" src="lib/backbone.js"></script>
+
+		<script type="text/javascript" src="objets_speciaux.js"></script>
+		<script type="text/javascript" src="js/Objets.js"></script>
+		<script type="text/javascript" src="js/Interface.js"></script>
+		<script type="text/javascript" src="js/Map.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
+</html>
